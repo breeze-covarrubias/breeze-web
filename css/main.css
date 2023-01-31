@@ -1,0 +1,244 @@
+/* Main Background of Website*/
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Anek Latin", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  color: #555;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Staatliches', cursive;
+  font-weight: 400;
+  color: #333;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+  color: #1CBCAD;
+  word-wrap: break-word;
+
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 0;
+}
+
+a:before,
+a:after {
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*---------------------------------------------------
+  SECTION WRAPS
+---------------------------------------------------*/
+
+/* Header */
+.header {
+  background: url(../images/HeaderBackground.jpg) no-repeat center top;
+  background-size: cover;
+  padding-top: 19%;
+  padding-bottom: 20%;
+  text-align:left;
+  width: 100%;
+  
+
+}
+.header h1 {
+  font-size: 450%;
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
+/*About Sizing */
+.about {
+  background: #ffffff;
+  padding-top: 3%;
+  padding-bottom: 3.4%;
+  color: #000000ec;
+  text-align: left;
+} 
+.about h1 {
+  color: #000000ec;
+    font-size: 320%;
+    text-align: left;
+  }
+.about h2 {
+  color: #303030;
+    font-size: 170%;
+    text-align: left;
+  }
+.about t {
+  color: #000000ec;
+    font-size: 105%;
+  }  
+.about icon {
+  color: #1CBCAD;
+  font-size: 110%;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+
+
+/*lang Sizing */
+.lang {
+  background: #000000ec;
+  padding-top: 4.5%;
+  padding-bottom: 3.5%;
+  text-align: center;
+} 
+/* Download Icon on Header */
+.lang tb {
+  color: #000000ec;
+  font-size: 105%;
+}
+.lang h1 {
+  color: #000000ec;
+  font-size: 225%;
+}
+.lang tg {
+  color: #a8a8a8;
+  font-size: 175%;
+  font-style: italic;
+}
+.lang lw {
+  color: #ffffff;
+  font-size: 205%;
+  font-weight: bold;
+}
+.lang star {
+  color: #a8a8a8;
+  font-size: 210%;
+}
+
+
+
+/*Tile Sizing*/
+.tile {
+  background: #ffffff;
+  padding-top: 3.5%;
+  padding-bottom: 4.5%;
+  color: #000000ec;
+  text-align: center;
+} 
+.tile h1 {
+  color: #000000ec;
+    font-size: 320%;
+  }
+.tile m {
+  color: #000000ec;
+    font-size: 120%;
+    font-weight: bold;
+  }
+.tile t {
+  color: #000000ec;
+    font-size: 102%;
+    font-style: italic;
+}  
+
+
+
+
+/*Travel Sizing */
+.travel {
+  background: #000000ec;
+  padding-top: 3.5%;
+  padding-bottom: 3.3%;
+  text-align: center;
+} 
+.travel l {
+  color: #ffffff;
+  font-size: 205%;
+  font-weight: bold;
+}
+.travel t {
+  color: #a8a8a8;
+  font-style: italic;
+  font-size: 185%;
+  font-weight: bold;
+}
+
+
+
+
+/*Footer Sizing*/
+.footer {
+  background: #2f2f2f;
+  padding-top: .2%;
+  padding-bottom: 1.3%;
+}
+.footer h3 {
+  color: white;
+}
+.footer h4 {
+  color: #a8a8a8;;
+  font-style: italic;
+}
+.footer icon {
+  font-size: 103%;
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+
+
+
+
+/*box Sizing */
+.boxsmall {
+  padding-bottom:.4%;
+  background-color: #d6d6d6;
+  padding-left: 1.3%;
+}
+.boxmed {
+  padding-top: 2%;
+  background-color: #d6d6d6;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 4%;
+}
+.boximage {
+  padding-top: 1.8%;
+  padding-bottom: 1.8%;
+  background-color: #d6d6d6;
+  padding-left: 1.2%;
+  padding-right: .9%;
+
+}
+
+
+
